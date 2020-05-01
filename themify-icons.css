@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  src: url("themify.eot") format("embedded-opentype"), url("themify.woff") format("woff"), url("themify.ttf") format("truetype"), url("themify.svg") format("svg");
+}
+[class^="ti-"], [class*=" ti-"] { font-family: "themify"; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -moz-osx-font-smoothing: grayscale; }
+.ti-close::before { content: ""; }
+.ti-layout-grid4-alt::before { content: ""; }
+.ti-layout-grid3-alt::before { content: ""; }
+.ti-layout-grid2-alt::before { content: ""; }

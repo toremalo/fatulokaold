@@ -1,0 +1,21 @@
+/* Code tidied up by ScrapBook */
+#CDSSCROLLINGRAVE { background-color: rgb(255, 255, 255); white-space: nowrap; overflow: hidden; font: 14px Verdana,Bitstream Vera Sans,Arial,Helvetica,sans-serif; margin: 0px; text-align: left; border: medium none; text-decoration: none; outline: medium none; color: rgb(51, 51, 51); padding: 7px; }
+#CDSSCROLLINGRAVE img { border-style: none; }
+#CDSSCROLLINGRAVE .rightBorder { border-right: 1px solid rgb(183, 183, 183); padding-right: 12px; float: left; }
+#CDSSCROLLINGRAVE div { padding: 1px; }
+#CDSSCROLLINGRAVE div span { display: inline-block; padding: 0px 0px 0px 8px; margin-top: 5px; }
+#CDSSCROLLINGRAVE .placeHolder { line-height: 0; }
+#CDSSCROLLINGRAVE .reviewContribution { color: rgb(102, 102, 102); }
+#CDSSCROLLINGRAVE a, #CDSSCROLLINGRAVE a:visited { color: rgb(0, 102, 153); text-decoration: underline; }
+#CDSSCROLLINGRAVE a:hover { text-decoration: underline; }
+#CDSSCROLLINGRAVE .reviewTitle { font-weight: 700; }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 { padding: 0px; font: 14px Trip Sans VF,Trip Sans,Arial,sans-serif; color: rgb(0, 0, 0); }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 .reviewContribution { color: rgb(0, 0, 0); }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 a, #CDSSCROLLINGRAVE.cx_brand_refresh1 a:visited { color: rgb(0, 0, 0); text-decoration: underline; }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 a:hover { text-decoration: underline; }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 .rightBorder { background-color: rgb(52, 224, 161); padding: 7px 8px; }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 .rightBorder img { height: 40px; max-width: 76px; }
+#CDSSCROLLINGRAVE.cx_brand_refresh1.border { border-color: rgb(52, 224, 161); }
+#CDSSCROLLINGRAVE.cx_brand_refresh1 marquee { padding: 7px 8px; }
+#CDSSCROLLINGRAVE.border { border: 1px solid rgb(0, 166, 128); }
+#CDSSCROLLINGRAVE.narrow { width: 282px; }

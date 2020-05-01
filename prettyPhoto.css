@@ -1,0 +1,15 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "star";
+  font-style: normal;
+  font-weight: 400;
+  src: url("star.eot") format("embedded-opentype"), url("star.woff") format("woff"), url("star.ttf") format("truetype"), url("star.svg") format("svg");
+}
+@font-face {
+  font-family: "WooCommerce";
+  font-style: normal;
+  font-weight: 400;
+  src: url("WooCommerce.eot") format("embedded-opentype"), url("WooCommerce.woff") format("woff"), url("WooCommerce.ttf") format("truetype"), url("WooCommerce.svg") format("svg");
+}
+@media only screen and (max-width: 768px) {
+}

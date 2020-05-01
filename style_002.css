@@ -1,0 +1,6 @@
+/* Code tidied up by ScrapBook */
+.wpml-ls-legacy-list-horizontal { border: 1px solid transparent; padding: 7px; clear: both; }
+.wpml-ls-legacy-list-horizontal > ul { padding: 0px; margin: 0px !important; list-style-type: none; }
+.wpml-ls-legacy-list-horizontal .wpml-ls-item { padding: 0px; margin: 0px; list-style-type: none; display: inline-block; }
+.wpml-ls-legacy-list-horizontal a { display: block; text-decoration: none; padding: 5px 10px; line-height: 1; }
+.wpml-ls-legacy-list-horizontal .wpml-ls-flag { display: inline; vertical-align: middle; width: 18px; height: 12px; }

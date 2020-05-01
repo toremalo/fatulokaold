@@ -1,0 +1,7 @@
+/* Code tidied up by ScrapBook */
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+  .wc-block-featured-category::after { content: none; }
+}
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+  .wc-block-featured-product::after { content: none; }
+}
