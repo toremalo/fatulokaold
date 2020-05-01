@@ -1,0 +1,18 @@
+/* Code tidied up by ScrapBook */
+[class*="hint--"] { position: relative; display: inline-block; }
+[class*="hint--"]::after, [class*="hint--"]::before { position: absolute; transform: translate3d(0px, 0px, 0px); visibility: hidden; opacity: 0; z-index: 1000000; pointer-events: none; transition: all 0.3s ease 0s; }
+[class*="hint--"]:hover::after, [class*="hint--"]:hover::before { visibility: visible; opacity: 1; transition-delay: 0.1s; }
+[class*="hint--"]::before { content: ""; position: absolute; background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px; border: 6px solid transparent; z-index: 1000001; }
+[class*="hint--"]::after { background: rgb(56, 56, 56) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 8px 10px; font-size: 12px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 12px; white-space: nowrap; text-shadow: 0px -1px 0px rgb(0, 0, 0); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); }
+[class*="hint--"][aria-label]::after { content: attr(aria-label); }
+.hint--top-left::before, .hint--top-right::before, .hint--top::before { border-top-color: rgb(56, 56, 56); }
+.hint--top::after, .hint--top::before { bottom: 100%; left: 50%; }
+.hint--top::before { margin-bottom: -11px; left: calc(50% - 6px); }
+.hint--top::after { transform: translateX(-50%); }
+.hint--top:hover::before { transform: translateY(-8px); }
+.hint--top:hover::after { transform: translateX(-50%) translateY(-8px); }
+.hint--left::before { border-left-color: rgb(56, 56, 56); margin-right: -11px; margin-bottom: -6px; }
+.hint--left::after { margin-bottom: -14px; }
+.hint--left::after, .hint--left::before { right: 100%; bottom: 50%; }
+.hint--left:hover::after, .hint--left:hover::before { transform: translateX(-8px); }
+.hint--bounce::after, .hint--bounce::before { transition: opacity 0.3s ease 0s, visibility 0.3s ease 0s, transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24) 0s; }

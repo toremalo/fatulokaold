@@ -1,0 +1,10 @@
+/* Code tidied up by ScrapBook */
+.nice-select { background-color: rgb(255, 255, 255); border-radius: 5px; border: 1px solid rgb(232, 232, 232); box-sizing: border-box; clear: both; cursor: pointer; display: block; float: left; font-family: inherit; font-size: 14px; font-weight: normal; height: 42px; line-height: 40px; outline: medium none; padding-left: 18px; padding-right: 30px; position: relative; text-align: left !important; transition: all 0.2s ease-in-out 0s; -moz-user-select: none; white-space: nowrap; width: auto; }
+.nice-select:hover { border-color: rgb(219, 219, 219); }
+.nice-select:active, .nice-select.open, .nice-select:focus { border-color: rgb(153, 153, 153); }
+.nice-select::after { border-bottom: 2px solid rgb(153, 153, 153); border-right: 2px solid rgb(153, 153, 153); content: ""; display: block; height: 5px; margin-top: -4px; pointer-events: none; position: absolute; right: 12px; top: 50%; transform-origin: 66% 66% 0px; transform: rotate(45deg); transition: all 0.15s ease-in-out 0s; width: 5px; }
+.nice-select .list { background-color: rgb(255, 255, 255); border-radius: 5px; box-shadow: 0px 0px 0px 1px rgba(68, 68, 68, 0.11); box-sizing: border-box; margin-top: 4px; opacity: 0; overflow: hidden; padding: 0px; pointer-events: none; position: absolute; top: 100%; left: 0px; transform-origin: 50% 0px 0px; transform: scale(0.75) translateY(-21px); transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25) 0s, opacity 0.15s ease-out 0s; z-index: 9; }
+.nice-select .list:hover .option:not(:hover) { background-color: transparent !important; }
+.nice-select .option { cursor: pointer; font-weight: 400; line-height: 40px; list-style: outside none none; min-height: 40px; outline: medium none; padding-left: 18px; padding-right: 29px; text-align: left; transition: all 0.2s ease 0s; }
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus { background-color: rgb(246, 246, 246); }
+.nice-select .option.selected { font-weight: bold; }
